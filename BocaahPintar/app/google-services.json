@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "848548746679",
+    "project_id": "bocaahpintar",
+    "storage_bucket": "bocaahpintar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848548746679:android:a1ea2c4e6dc6c21b60c432",
+        "android_client_info": {
+          "package_name": "com.example.bocaahpintar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848548746679-9j6uplmsbepqchfp8anjk9ust8ggmmj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bocaahpintar",
+            "certificate_hash": "a789e505c817a122ea906ea6eaa3d48b3a30ab18"
+          }
+        },
+        {
+          "client_id": "848548746679-sg2rt96curlfj9nalsvg8ahqsof03e7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhzax0uwfFfncAHMrBW5IbeMTMoCLt6Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848548746679-sg2rt96curlfj9nalsvg8ahqsof03e7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

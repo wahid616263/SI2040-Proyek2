@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnew"
+    tools:context=".TentangApk">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="285dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Tentang Aplikasi BOCAH PINTAR"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="342dp"
+        android:layout_height="219dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="sans-serif-black"
+        android:text="aplikasi bocah pintar ini sangat membantu orangtua dalam mengawasi anaknya dalam penggunaan gadget, anak bisa bermain dan belajar dengan berbagai fitur seperti tebak angka dan warna"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/kritik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/kritik"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/kritik"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/kirim_kritik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kirim_kritik"
+        android:layout_width="120dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="144dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Kirim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
